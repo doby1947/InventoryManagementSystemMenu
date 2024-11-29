@@ -14,11 +14,13 @@ public class Product
 		this.quantity=quantity;
 	}
 	
-	public int getQuantity() {
+	public int getQuantity() 
+	{
 		return quantity;
 	}
 
-	public void setQuantity(int quantity) {
+	public void setQuantity(int quantity) 
+	{
 		this.quantity = quantity;
 	}
 
@@ -47,9 +49,9 @@ public class Product
 		this.price = price;
 	}
 	@Override
-	public String toString() {
-		return "Product "+ productId + ", productName=" + productName + ", price=" + price + ", quantity="
-				+ quantity ;
+	public String toString() 
+	{
+		return "Product "+ productId + ", productName=" + productName + ", price=" + price + ", quantity="+ quantity ;
 	}
 
 
