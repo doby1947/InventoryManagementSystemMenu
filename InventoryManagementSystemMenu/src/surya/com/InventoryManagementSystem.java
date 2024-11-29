@@ -16,9 +16,9 @@ public class InventoryManagementSystem
 		    System.out.println("2. Remove a product");
 		    System.out.println("3. Update the quality of a product");
 		    System.out.println("4. Display details of a specific product");
-	     	System.out.println("5. Display details of all product");
-	    	System.out.println("6. Exit the Program");
-	    	System.out.println("----------------------------------------------------");
+	     	    System.out.println("5. Display details of all product");
+	    	    System.out.println("6. Exit the Program");
+	    	    System.out.println("----------------------------------------------------");
 		    System.out.println("Choose your preffered option: ");
 		    int choice=scanner.nextInt();
 		    scanner.nextLine();
